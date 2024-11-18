@@ -1,0 +1,95 @@
+body .U1
+{
+    width: 550px;
+    height: 600px;
+    background-color: rgb(143, 143, 169);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transform: translate(400px,50px);
+}
+
+
+body .U1 .adham
+{
+height: 115px;
+width: 100px;
+position: absolute;
+top: 12px;
+}
+
+body .U1 .U2
+{
+font-size: 25px;
+position: absolute;
+top: 120px;
+}
+
+body .U1 .bornlocation
+{
+
+position: absolute;
+top:170px;
+
+color: bisque;
+}
+body .U1 .job
+{
+
+position: absolute;
+top:215px;
+
+color: rgb(60, 64, 123);
+opacity: 0.5;
+}
+
+.mywork
+{
+
+width: 300px;
+height: 50px;
+border-radius: 10px;
+position: absolute;
+top: 250px;
+background-color: rgb(183, 148, 106);
+border-color: rgb(52, 140, 52);
+border-width: 0.5px;
+border-bottom: 50px;
+text-align: center;
+color: black;
+text-decoration: none;
+position: absolute;
+text-transform: uppercase;
+
+}
+
+/* Default styles for desktops and larger screens */
+body {
+    font-size: 18px;
+    background-color: #ffffff; /* Example background */
+  }
+  
+  /* Styles for tablets (width between 768px and 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+      background-color: #f0f0f0;
+    }
+  }
+  
+  /* Styles for phones (width between 480px and 767px) */
+  @media (min-width: 480px) and (max-width: 767px) {
+    body {
+      font-size: 14px;
+      background-color: #e0e0e0;
+    }
+  }
+  
+  /* Styles for smaller phones (width below 480px) */
+  @media (max-width: 479px) {
+    body {
+      font-size: 12px;
+      background-color: #d0d0d0;
+    }
+  }
+  
